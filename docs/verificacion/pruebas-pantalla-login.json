@@ -1,0 +1,70 @@
+[
+  {
+    "comprobacion": "btn_volver visible y pulsable",
+    "correcto": true
+  },
+  {
+    "comprobacion": "btn_iniciar_sesion visible y pulsable",
+    "correcto": true
+  },
+  {
+    "comprobacion": "btn_acceder_google visible y pulsable",
+    "correcto": true
+  },
+  {
+    "comprobacion": "btn_acceder_davante visible y pulsable",
+    "correcto": true
+  },
+  {
+    "comprobacion": "btn_crear_cuenta visible y pulsable",
+    "correcto": true
+  },
+  {
+    "comprobacion": "btn_entrar_sin_sesion visible y pulsable",
+    "correcto": true
+  },
+  {
+    "comprobacion": "btn_recuperar_contrasena visible y pulsable",
+    "correcto": true
+  },
+  {
+    "comprobacion": "Dos campos editables",
+    "correcto": true
+  },
+  {
+    "comprobacion": "Contraseña protegida",
+    "correcto": true
+  },
+  {
+    "comprobacion": "Aceptación de términos se marca",
+    "correcto": true
+  },
+  {
+    "comprobacion": "Aceptación de términos se desmarca",
+    "correcto": true
+  },
+  {
+    "comprobacion": "Correo permite escribir",
+    "correcto": true
+  },
+  {
+    "comprobacion": "La contraseña sigue oculta tras escribir",
+    "correcto": true
+  },
+  {
+    "comprobacion": "El botón conserva la actividad abierta",
+    "correcto": true
+  },
+  {
+    "comprobacion": "Pantalla disponible a 360 dp de ancho",
+    "correcto": true
+  },
+  {
+    "comprobacion": "Campos accesibles con fuente ampliada",
+    "correcto": true
+  },
+  {
+    "comprobacion": "Acceso inferior disponible tras desplazamiento",
+    "correcto": true
+  }
+]
