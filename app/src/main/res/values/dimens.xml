@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <dimen name="margen_pantalla">16dp</dimen>
+    <dimen name="alto_cabecera">64dp</dimen>
+    <dimen name="alto_panel_marca">120dp</dimen>
+    <dimen name="radio_panel_marca">20dp</dimen>
+    <dimen name="alto_campo">56dp</dimen>
+    <dimen name="radio_campo">4dp</dimen>
+    <dimen name="separacion_campos">12dp</dimen>
+    <dimen name="alto_area_tactil">48dp</dimen>
+    <dimen name="alto_visual_boton">40dp</dimen>
+    <dimen name="radio_boton">24dp</dimen>
+    <dimen name="alto_separador">32dp</dimen>
+    <dimen name="espacio_entre_accesos">8dp</dimen>
+    <dimen name="tamano_icono_acceso">20dp</dimen>
+    <dimen name="padding_campo">16dp</dimen>
+    <dimen name="grosor_separador">1dp</dimen>
+    <dimen name="ancho_logo">148dp</dimen>
+    <dimen name="alto_logo">40.15dp</dimen>
+    <dimen name="padding_icono_volver">16dp</dimen>
+    <dimen name="padding_marca_inicio">18dp</dimen>
+    <dimen name="padding_marca_final">12dp</dimen>
+    <dimen name="separacion_marca">3dp</dimen>
+    <dimen name="alto_rotulo_centro">24dp</dimen>
+    <dimen name="margen_formulario">8dp</dimen>
+    <dimen name="margen_segundo_campo">4dp</dimen>
+    <dimen name="padding_control_terminos">14dp</dimen>
+    <dimen name="separacion_terminos">4dp</dimen>
+    <dimen name="margen_lineas">10dp</dimen>
+    <dimen name="separacion_registro">5dp</dimen>
+</resources>

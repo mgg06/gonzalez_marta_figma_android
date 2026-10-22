@@ -1,0 +1,11 @@
+<resources>
+    <color name="fondo">#FFF5F8FD</color>
+    <color name="texto_principal">#FF17243D</color>
+    <color name="acento">#FF0234AB</color>
+    <color name="texto_sobre_acento">#FFFFFFFF</color>
+    <color name="superficie_acceso_google">#FFFFFFFF</color>
+    <color name="borde_control">#FFD7DFEA</color>
+    <color name="texto_campo">#FF49454F</color>
+    <color name="texto_secundario">#FF475569</color>
+    <color name="superficie_acceso_davante">#FFEAF1FC</color>
+</resources>

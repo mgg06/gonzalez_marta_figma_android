@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Pequeño Davante</string>
+    <string name="plantilla_saludo">Hello World!</string>
+    <string name="titulo_inicio_sesion">Inicia sesión</string>
+    <string name="marca_pequeno">Pequeño</string>
+    <string name="tipo_tienda">Ropa infantil</string>
+    <string name="nombre_centro">MEDAC Sevilla Este</string>
+    <string name="correo_hint">Tu correo electrónico</string>
+    <string name="correo_etiqueta">Correo electrónico</string>
+    <string name="contrasena_hint">Tu contraseña</string>
+    <string name="contrasena_etiqueta">Contraseña</string>
+    <string name="recuperar_contrasena">¿Has olvidado tu contraseña?</string>
+    <string name="aceptar_terminos">Acepto los términos y condiciones</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="alternativa_acceso">o entra con</string>
+    <string name="continuar_google">Continuar con Google</string>
+    <string name="acceder_davante">Entrar con mi cuenta Davante</string>
+    <string name="primera_visita">¿Es tu primera visita?</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="seguir_sin_sesion">Seguir sin iniciar sesión</string>
+    <string name="descripcion_volver">Volver</string>
+    <string name="descripcion_logo">Pequeño Davante</string>
+    <string name="descripcion_centro">Fachada del centro MEDAC Sevilla Este</string>
+    <string name="aviso_demostracion">Esta pantalla es una demostración y no está conectada a un servicio de acceso</string>
+</resources>
