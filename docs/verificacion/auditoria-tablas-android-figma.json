@@ -1,0 +1,291 @@
+{
+  "textos": [
+    {
+      "figma": "46:736",
+      "android": "tv_titulo_inicio_sesion",
+      "estilo": "TextoTituloPantalla",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "46:739",
+      "android": "tv_nombre_pequeno",
+      "estilo": "TextoMarcaPequeno",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "46:748",
+      "android": "tv_tipo_tienda",
+      "estilo": "TextoTipoTienda",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "46:751",
+      "android": "tv_nombre_centro",
+      "estilo": "TextoNombreCentro",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "I46:753;52798:24886",
+      "android": "et_correo_electronico",
+      "estilo": "TextoCampoCorreo",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "I46:753;52798:24888",
+      "android": "til_correo_electronico",
+      "estilo": "TextoEtiquetaCorreo",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "I46:755;52798:24886",
+      "android": "et_contrasena",
+      "estilo": "TextoCampoContrasena",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "I46:755;52798:24888",
+      "android": "til_contrasena",
+      "estilo": "TextoEtiquetaContrasena",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "46:757",
+      "android": "btn_recuperar_contrasena",
+      "estilo": "TextoRecuperarContrasena",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "46:762",
+      "android": "tv_texto_terminos",
+      "estilo": "TextoTerminos",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "I46:763;58653:14019",
+      "android": "btn_iniciar_sesion",
+      "estilo": "TextoBotonPrincipal",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "46:766",
+      "android": "tv_o_entra_con",
+      "estilo": "TextoSeparador",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "I46:769;58650:11132",
+      "android": "btn_acceder_google",
+      "estilo": "TextoBotonGoogle",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "I46:777;58650:11132",
+      "android": "btn_acceder_davante",
+      "estilo": "TextoBotonDavante",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "46:780",
+      "android": "tv_pregunta_registro",
+      "estilo": "TextoPrimeraVisita",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "46:781",
+      "android": "btn_crear_cuenta",
+      "estilo": "TextoCrearCuenta",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    },
+    {
+      "figma": "46:783",
+      "android": "btn_entrar_sin_sesion",
+      "estilo": "TextoSeguirSinSesion",
+      "comprobaciones": {
+        "texto": true,
+        "fuente": true,
+        "peso": true,
+        "tamano": true,
+        "interlineado": true,
+        "color": true,
+        "espaciado": true
+      }
+    }
+  ],
+  "colores": {
+    "fondo": "#FFF5F8FD",
+    "texto_principal": "#FF17243D",
+    "acento": "#FF0234AB",
+    "texto_sobre_acento": "#FFFFFFFF",
+    "superficie_acceso_google": "#FFFFFFFF",
+    "borde_control": "#FFD7DFEA",
+    "texto_campo": "#FF49454F",
+    "texto_secundario": "#FF475569",
+    "superficie_acceso_davante": "#FFEAF1FC"
+  },
+  "dimensiones": {
+    "margen_pantalla": "16dp",
+    "alto_cabecera": "64dp",
+    "alto_panel_marca": "120dp",
+    "radio_panel_marca": "20dp",
+    "alto_campo": "56dp",
+    "radio_campo": "4dp",
+    "separacion_campos": "12dp",
+    "alto_area_tactil": "48dp",
+    "alto_visual_boton": "40dp",
+    "radio_boton": "24dp",
+    "alto_separador": "32dp",
+    "espacio_entre_accesos": "8dp",
+    "tamano_icono_acceso": "20dp",
+    "padding_campo": "16dp",
+    "grosor_separador": "1dp",
+    "ancho_logo": "148dp",
+    "alto_logo": "40.15dp",
+    "padding_icono_volver": "16dp",
+    "padding_marca_inicio": "18dp",
+    "padding_marca_final": "12dp",
+    "separacion_marca": "3dp",
+    "alto_rotulo_centro": "24dp",
+    "margen_formulario": "8dp",
+    "margen_segundo_campo": "4dp",
+    "padding_control_terminos": "14dp",
+    "separacion_terminos": "4dp",
+    "margen_lineas": "10dp",
+    "separacion_registro": "5dp"
+  },
+  "resultado": "17 textos y 9 recursos de color contrastados con la copia de Figma y los XML actuales",
+  "diferencias": [
+    "Figma: marco fijo 360 x 800, Android: ancho adaptable y desplazamiento con limite de 512 dp para el contenedor exterior",
+    "Figma: separaciones de 16 y 12 entre los bordes de panel/campos, Android: margenes de contenedores de 8 y 4 dp, mas el espacio automatico de las etiquetas Material",
+    "Figma: radio 100 para la capsula principal, Android: radio 24 dp, limitado visualmente por la mitad de su altura",
+    "Android: campos minHeight 56 dp y botones minHeight 48 dp con wrap_content, la altura puede crecer",
+    "Android: colores de foco y estados de pulsacion, no representan valores de una captura estatica de Figma"
+  ]
+}
