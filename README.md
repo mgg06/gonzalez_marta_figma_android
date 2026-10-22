@@ -6,8 +6,6 @@ El proyecto incluye los recursos del diseño y la pantalla de inicio de sesión 
 
 Los campos permiten escribir, la contraseña se oculta y la aceptación de términos se puede marcar o desmarcar
 
-Los botones muestran un aviso de demostración, no existe una conexión con servicios de autenticación ni se guardan credenciales
-
 ## Configuración
 
 - Java y vistas XML

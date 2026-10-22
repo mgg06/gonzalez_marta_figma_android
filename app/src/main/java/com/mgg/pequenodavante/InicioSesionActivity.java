@@ -2,7 +2,6 @@ package com.mgg.pequenodavante;
 
 import android.os.Bundle;
 import android.graphics.Color;
-import android.widget.Toast;
 import androidx.activity.EdgeToEdge;
 import androidx.activity.SystemBarStyle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,13 +32,5 @@ public class InicioSesionActivity extends AppCompatActivity {
         });
         binding.btnVolver.setOnClickListener(view -> getOnBackPressedDispatcher().onBackPressed());
         binding.tvTextoTerminos.setOnClickListener(view -> binding.cbAceptarTerminos.toggle());
-        android.view.View.OnClickListener demonstration = view ->
-                Toast.makeText(this, R.string.aviso_demostracion, Toast.LENGTH_LONG).show();
-        binding.btnIniciarSesion.setOnClickListener(demonstration);
-        binding.btnRecuperarContrasena.setOnClickListener(demonstration);
-        binding.btnAccederGoogle.setOnClickListener(demonstration);
-        binding.btnAccederDavante.setOnClickListener(demonstration);
-        binding.btnCrearCuenta.setOnClickListener(demonstration);
-        binding.btnEntrarSinSesion.setOnClickListener(demonstration);
     }
 }

@@ -22,5 +22,4 @@
     <string name="descripcion_volver">Volver</string>
     <string name="descripcion_logo">Pequeño Davante</string>
     <string name="descripcion_centro">Fachada del centro MEDAC Sevilla Este</string>
-    <string name="aviso_demostracion">Esta pantalla es una demostración y no está conectada a un servicio de acceso</string>
 </resources>
