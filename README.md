@@ -41,10 +41,4 @@ La carpeta ZIP de entrega no incluye build, .gradle ni local.properties, Android
 
 [Memoria en Google Docs](https://docs.google.com/document/d/1Bq8Ej1iTNjMBGoX1hnS9Vd2E_zm8H_USm8y_tMITJqo/edit)
 
-[Especificaciones contrastadas](docs/especificaciones.md)
-
-[Inventario de recursos](docs/inventario-recursos.md)
-
-[Nombres de las capas](docs/nombres-capas.csv)
-
 ![Pantalla ejecutada en el emulador](docs/verificacion/login-pantalla.png)

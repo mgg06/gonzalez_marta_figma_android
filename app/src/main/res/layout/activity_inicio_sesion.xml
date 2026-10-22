@@ -16,7 +16,7 @@
         android:paddingStart="@dimen/margen_pantalla"
         android:paddingEnd="@dimen/margen_pantalla"
         android:paddingBottom="@dimen/margen_pantalla"
-        app:layout_constraintWidth_max="512dp"
+        app:layout_constraintWidth_max="@dimen/ancho_maximo_contenido"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -56,15 +56,14 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/alto_panel_marca"
                 android:background="@drawable/bg_panel_marca"
-                        app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/ly_cabecera">
                 <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guia_marca_fotografia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    app:layout_constraintGuide_percent="0.554878" />
+                    android:orientation="vertical" />
                 <LinearLayout
                     android:id="@+id/ly_identidad_davante"
                     android:layout_width="0dp"
@@ -197,8 +196,8 @@
                     android:minHeight="@dimen/alto_area_tactil"
                     android:maxLines="2"
                     android:singleLine="false"
-                    android:paddingTop="10dp"
-                    android:paddingBottom="10dp" />
+                    android:paddingTop="@dimen/padding_vertical_boton"
+                    android:paddingBottom="@dimen/padding_vertical_boton" />
                 <LinearLayout
                     android:id="@+id/ly_aceptacion_terminos"
                     android:layout_width="match_parent"
@@ -210,8 +209,8 @@
                         android:id="@+id/cb_aceptar_terminos"
                         android:layout_width="@dimen/alto_area_tactil"
                         android:layout_height="@dimen/alto_area_tactil"
-                        android:minWidth="0dp"
-                        android:minHeight="0dp"
+                        android:minWidth="@dimen/sin_espacio"
+                        android:minHeight="@dimen/sin_espacio"
                         android:paddingStart="@dimen/padding_control_terminos"
                         android:paddingEnd="@dimen/padding_control_terminos"
                         android:contentDescription="@string/aceptar_terminos"
@@ -240,8 +239,8 @@
                     android:minHeight="@dimen/alto_area_tactil"
                     android:maxLines="2"
                     android:singleLine="false"
-                    android:paddingTop="10dp"
-                    android:paddingBottom="10dp" />
+                    android:paddingTop="@dimen/padding_vertical_boton"
+                    android:paddingBottom="@dimen/padding_vertical_boton" />
                 <LinearLayout
                     android:id="@+id/ly_separador_accesos"
                     android:layout_width="match_parent"
@@ -282,8 +281,8 @@
                     android:minHeight="@dimen/alto_area_tactil"
                     android:maxLines="2"
                     android:singleLine="false"
-                    android:paddingTop="10dp"
-                    android:paddingBottom="10dp" />
+                    android:paddingTop="@dimen/padding_vertical_boton"
+                    android:paddingBottom="@dimen/padding_vertical_boton" />
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_acceder_davante"
                     style="@style/TextoBotonDavante"
@@ -295,8 +294,8 @@
                     android:minHeight="@dimen/alto_area_tactil"
                     android:maxLines="2"
                     android:singleLine="false"
-                    android:paddingTop="10dp"
-                    android:paddingBottom="10dp" />
+                    android:paddingTop="@dimen/padding_vertical_boton"
+                    android:paddingBottom="@dimen/padding_vertical_boton" />
                 <LinearLayout
                     android:id="@+id/ly_registro"
                     android:layout_width="match_parent"
@@ -321,8 +320,8 @@
                         android:minHeight="@dimen/alto_area_tactil"
                         android:maxLines="2"
                         android:singleLine="false"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp" />
+                        android:paddingTop="@dimen/padding_vertical_boton"
+                        android:paddingBottom="@dimen/padding_vertical_boton" />
                 </LinearLayout>
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_entrar_sin_sesion"
@@ -333,8 +332,8 @@
                     android:minHeight="@dimen/alto_area_tactil"
                     android:maxLines="2"
                     android:singleLine="false"
-                    android:paddingTop="10dp"
-                    android:paddingBottom="10dp" />
+                    android:paddingTop="@dimen/padding_vertical_boton"
+                    android:paddingBottom="@dimen/padding_vertical_boton" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>

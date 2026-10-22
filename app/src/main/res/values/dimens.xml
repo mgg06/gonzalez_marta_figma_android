@@ -28,4 +28,17 @@
     <dimen name="separacion_terminos">4dp</dimen>
     <dimen name="margen_lineas">10dp</dimen>
     <dimen name="separacion_registro">5dp</dimen>
+    <dimen name="sin_espacio">0dp</dimen>
+    <dimen name="ancho_maximo_contenido">512dp</dimen>
+    <dimen name="padding_vertical_boton">10dp</dimen>
+    <dimen name="padding_horizontal_boton">16dp</dimen>
+    <dimen name="inset_vertical_boton">4dp</dimen>
+    <dimen name="padding_inicio_acceso">20dp</dimen>
+    <dimen name="padding_final_google">40dp</dimen>
+    <dimen name="padding_final_davante">38.105dp</dimen>
+    <dimen name="grosor_borde_control">1dp</dimen>
+    <dimen name="grosor_borde_enfocado">2dp</dimen>
+    <dimen name="tamano_control_terminos">20dp</dimen>
+    <dimen name="grosor_control_terminos">2dp</dimen>
+    <dimen name="inset_marca_terminos">5dp</dimen>
 </resources>

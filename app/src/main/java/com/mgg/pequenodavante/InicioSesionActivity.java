@@ -22,6 +22,8 @@ public class InicioSesionActivity extends AppCompatActivity {
                 SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT));
         binding = ActivityInicioSesionBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        binding.guiaMarcaFotografia.setGuidelinePercent(
+                getResources().getFraction(R.fraction.proporcion_marca, 1, 1));
         binding.lyIdentidadMarcaCentro.setClipToOutline(true);
         ViewCompat.setOnApplyWindowInsetsListener(binding.main, (view, windowInsets) -> {
             Insets bars = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars());
