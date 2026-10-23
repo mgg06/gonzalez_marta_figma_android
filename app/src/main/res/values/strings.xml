@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Pequeño Davante</string>
-    <string name="plantilla_saludo">Hello World!</string>
     <string name="titulo_inicio_sesion">Inicia sesión</string>
     <string name="marca_pequeno">Pequeño</string>
     <string name="tipo_tienda">Ropa infantil</string>

@@ -211,7 +211,6 @@
         <item name="android:insetBottom">@dimen/inset_vertical_boton</item>
         <item name="cornerRadius">@dimen/radio_boton</item>
     </style>
-    <style name="TextoPlantilla" parent="TextoPrimeraVisita" />
     <style name="CampoContenedor" parent="Widget.Material3.TextInputLayout.OutlinedBox">
         <item name="boxBackgroundColor">@color/fondo</item>
         <item name="boxStrokeColor">@color/borde_campo</item>
