@@ -1,42 +1,89 @@
-# Pequeño Davante - Inicio de sesión en Android
+<p align="center">
+  <img src="docs/portada-readme.svg" alt="Pequeño Davante - Del prototipo al código (I)" width="100%">
+</p>
 
-Proyecto de la pantalla "00 Inicio de sesión" para la actividad "Del prototipo al código (I)" de Desarrollo de Interfaces, 2º DAM
+<p align="center">
+  <strong>Marta González González</strong><br>
+  Desarrollo de Interfaces - 2.º DAM
+</p>
 
-El proyecto incluye los recursos del diseño y la pantalla de inicio de sesión construida con vistas Android
+<p align="center">
+  <a href="docs/gonz%C3%A1lez_marta_figma_android.pdf">Memoria de la actividad en PDF</a>
+  &nbsp; | &nbsp;
+  <a href="https://www.figma.com/design/EsUftS945DYUInVenDYTTj?node-id=46-723">Copia de desarrollo en Figma</a>
+</p>
 
-Los campos permiten escribir, la contraseña se oculta y la aceptación de términos se puede marcar o desmarcar
+## Sobre el proyecto
+
+Este trabajo parte de la pantalla de inicio de sesión de Pequeño Davante, una aplicación de ropa infantil diseñada en Figma, y corresponde a la actividad "Del prototipo al código (I) - Figma a Android Studio"
+
+El proyecto reúne los recursos preparados a partir del diseño y la pantalla construida con Java y vistas XML, con la cabecera, la marca, la fotografía del centro y el formulario de acceso
+
+Los campos permiten escribir el correo y la contraseña, la contraseña se muestra oculta y la casilla de términos se puede marcar y desmarcar, el contenido se desplaza cuando aparece el teclado o falta espacio en la pantalla
+
+Los botones de acceso están representados en la interfaz, la actividad se centra en el diseño y la preparación del proyecto y no incorpora un servicio de autenticación
+
+## Documentación y diseño
+
+La [memoria en PDF](docs/gonz%C3%A1lez_marta_figma_android.pdf) incluye el análisis de bloques, el árbol de la pantalla, la correspondencia con las vistas Android, las tablas de especificaciones, el inventario de recursos, las capturas y la reflexión final
+
+La [copia de desarrollo de Figma](https://www.figma.com/design/EsUftS945DYUInVenDYTTj?node-id=46-723) permite consultar las capas renombradas y las propiedades del frame "ly_inicio_sesion"
 
 ## Configuración
 
-- Java y vistas XML
-- Minimum SDK 28
-- compileSdk 36.1 y targetSdk 36
-- ViewBinding activado
-- InicioSesionActivity y activity_inicio_sesion.xml
-- Tema Material 3 claro, con colores de Pequeño Davante
+| Apartado | Valor |
+| --- | --- |
+| Lenguaje de la aplicación | Java |
+| Interfaz | Vistas XML |
+| SDK mínimo | API 28 |
+| SDK de compilación | API 36.1 |
+| SDK objetivo | API 36 |
+| Versión de Java del código | 17 |
+| Acceso a las vistas | "ViewBinding" |
+| Actividad | "InicioSesionActivity" |
+| Layout | "activity_inicio_sesion.xml" |
+| Tema | "Theme.Material3.Light.NoActionBar" |
 
-## Recursos
+## Organización de los recursos
 
-colors.xml, strings.xml, styles.xml, themes.xml y dimens.xml contienen los valores del diseño, res/font incluye Roboto Regular 400 y Medium 500 y la licencia está en LICENCIA-Roboto.txt
+| Archivo o carpeta | Contenido |
+| --- | --- |
+| "app/src/main/java" | Actividad de la pantalla y acceso a las vistas mediante "ViewBinding" |
+| "res/layout/activity_inicio_sesion.xml" | Estructura y distribución de los controles |
+| "res/values/colors.xml" | Colores con nombres según su función |
+| "res/values/strings.xml" | Textos y descripciones de los elementos, guardados en UTF-8 |
+| "res/values/styles.xml" | Fuentes, tamaños, interlineados y estilos de los controles |
+| "res/values/themes.xml" | Tema claro y colores generales de la aplicación |
+| "res/values/dimens.xml" | Medidas, márgenes, separaciones y radios |
+| "res/values/fractions.xml" | Proporción entre el bloque de marca y la fotografía |
+| "res/font" | Roboto Regular 400 y Medium 500, incluidas en el proyecto |
+| "res/color" | Colores de los bordes y las etiquetas según el estado del campo |
+| "res/drawable" | Iconos y logotipos como "VectorDrawable", fondos y estados de la casilla |
+| "res/drawable-xxhdpi" | Fotografía del centro en WebP de 438 × 360 px |
+| "docs" | Memoria en PDF, portada del repositorio y captura de la pantalla |
 
-Los iconos están en drawable como VectorDrawable y la fotografía del centro en drawable-xxhdpi como WebP de 438 × 360 px
+La licencia de las fuentes se conserva en ["LICENCIA-Roboto.txt"](LICENCIA-Roboto.txt)
 
 ## Abrir y ejecutar
 
-Abre esta carpeta con Android Studio, deja que se configure la ruta del SDK y sincroniza Gradle, ejecuta la app en un dispositivo o emulador compatible, se muestra la pantalla de inicio de sesión
+1. Clona o descarga este repositorio y abre su carpeta raíz en Android Studio
+2. Utiliza el JDK incluido en Android Studio y deja que Gradle sincronice el proyecto
+3. Instala el SDK de compilación 36.1 si Android Studio lo solicita y configura la ruta local del SDK
+4. Selecciona un emulador o un móvil con Android 9, API 28, o una versión posterior
+5. Ejecuta la configuración "app" para abrir la pantalla de inicio de sesión
 
-El contenido respeta las barras del sistema y se puede desplazar cuando aparece el teclado o falta altura
+También se puede compilar y revisar el proyecto desde la terminal de Android Studio en Windows
 
-Los nombres de las vistas corresponden al árbol de la memoria, el contenedor raíz conserva el identificador "main" y la agrupación interior utiliza "ly_inicio_sesion"
+```text
+.\gradlew.bat assembleDebug lintDebug
+```
 
-Desde una terminal con JDK y SDK configurados también puedes usar gradlew.bat assembleDebug lintDebug en Windows
+"local.properties", ".idea", ".gradle" y las carpetas "build" quedan fuera del repositorio, cada equipo mantiene su configuración local y genera sus archivos de compilación
 
-La carpeta ZIP de entrega no incluye build, .gradle ni local.properties, Android Studio regenerará esos archivos locales
+## Pantalla en el emulador
 
-## Diseño y documentación
+<p align="center">
+  <img src="docs/verificacion/login-pantalla.png" alt="Pantalla de inicio de sesión de Pequeño Davante ejecutada en el emulador Android" width="320">
+</p>
 
-[Figma - copia de desarrollo](https://www.figma.com/design/EsUftS945DYUInVenDYTTj?node-id=46-723)
-
-[Memoria en Google Docs](https://docs.google.com/document/d/1Bq8Ej1iTNjMBGoX1hnS9Vd2E_zm8H_USm8y_tMITJqo/edit)
-
-![Pantalla ejecutada en el emulador](docs/verificacion/login-pantalla.png)
+<p align="center"><em>Cabecera, marca y fotografía del centro, formulario y opciones de acceso</em></p>
